@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Ryan Maugin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="icon" type="image/ico" href="./assets/favicon.ico">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Carousel (slickJS) CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar">
+
+        <!-- JUMBOTRON -->
+        <div class="container-fluid custom-jumbotron">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- HEADER -->
+                    <h1 class="main-header">Welcome, Visitor!</h1>
+                    <p class="main-sub-header">This is my (Ryan Maugin) portfolio showcasing all my work & projects in the digital sector.</p>
+                    <!-- /HEADER -->
+                </div>
+            </div>
+        </div>
+        <!-- /JUMBOTRON -->
+
+
+        <!-- NAVIGATION BAR -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12" style="padding: 0;">
+                    <nav class="navbar navbar-light bg-faded custom-navbar" id="myNavBar">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="#introduction">Introduction <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="#projects">Projects</a>
+                            <a class="nav-item nav-link" href="#extra">Extra</a>
+                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- /NAVIGATION BAR -->
+
+
+        <!-- INTRODUCTION CONTAINER -->
+        <div class="container-fluid introduction-container" id="introduction">
+            <div class="row">
+
+                <!-- Introduction header -->
+                <div class="col-md-12">
+                    <h3 class="header">Introduction</h3>
+                </div>
+                <!-- /Introduction header -->
+
+                <!-- Profile Image -->
+                <div class="col-sm-3">
+                    <img class="img-thumbnail profile-pic" src="./assets/nerd_emoji.png" alt="profile image">
+                </div>
+                <!-- /Profile Image -->
+
+                <!-- Introduction content -->
+                <div class="col-md-9 introduction-content">
+                    <h6><span class="bold-content">Full Name:</span> Ryan Maugin</h6>
+                    <h6><span class="bold-content">Age:</span> 17</h6>
+                    <h6><span class="bold-content">Years Experience:</span> 4 years</h6>
+                    <h6><span class="bold-content">Overview:</span></h6>
+                    <p>I am a 17-year-old who currently lives in London. I have a tremendous passion for coding & technology as I have been pursuing it for 4 years now & I am fully self-taught. I currently attend a Ada The National College for Digital Skills a college focused on developing digital skills in young minds. I am Originally from France but moved to the UK at the age of 6 and have been here ever since meaning I speak both english and french fluently.</p>
+                </div>
+                <!-- /Introduction content -->
+
+            </div>
+        </div>
+        <!-- /INTRODUCTION CONTAINER -->
+
+
+        <!-- SKILLS CONTAINER -->
+        <div class="container-fluid skills-container">
+            <div class="row">
+
+                <!-- App Pane -->
+                <div class="col-md-4 app" id="app-container">
+                    <h4>App Development</h4>
+                    <div class="app-content" id="app-content">
+                        <p>I develop apps in my spare time or whenever I can because I find it super fun to do & over time have become familiar with:</p>
+                        <ul>
+                            <li>Java for Android Development</li>
+                            <li>Swift for IOS Development</li>
+                            <LI>Cordova & Ionic Framework (hybrid)</LI>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /App Pane -->
+
+                <!-- Software Pane -->
+                <div class="col-md-4 software" id="software-container">
+                    <h4>Software Development</h4>
+                    <div class="software-content" id="software-content">
+                        <p>Software programming is something I am absolutely passionate about and I am familiar with these software technologies:</p>
+                        <ul>
+                            <li>Python & PyGame</li>
+                            <li>Java & JavaFX</li>
+                            <LI>Learning - Rust Lang</LI>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /Software Pane -->
+
+                <!-- Web Pane -->
+                <div class="col-md-4 web" id="web-container">
+                    <h4>Web Development</h4>
+                    <div class="web-content" id="web-content">
+                        <p>I have been programming for the web since the beginning and I am confidently familiar with these web technologies:</p>
+                        <ul>
+                            <li>HTML, CSS, JS</li>
+                            <li>NodeJS</li>
+                            <LI>Typescript & Angular2</LI>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /Web Pane -->
+
+            </div>
+        </div>
+        <!-- /SKILLS CONTAINER -->
+
+        <!-- Experience carousel -->
+        <div class="container feature-container carousel-container">
+            <div class="row">
+                <div class="experiences-carousel">
+                    
+                    <!-- User testing with ustwo slides -->
+                    <div>
+                        <img class="carousel-img" src="./assets/ustwo_user_testing(1).jpg">
+                        <h3> User Testing with Ustwo (1) </h3>
+                        <p class="carousel-subtext">We were extremely privileged to have the game development company Ustwo come in twice for a whole day in order to help us learn how to effectively user test our prototype and final game solution with our target audience.</p>
+                    </div>
+                    <div>
+                        <img class="carousel-img" src="./assets/ustwo_user_testing(2).jpg">
+                        <h3> User Testing with Ustwo (2) </h3>
+                        <p class="carousel-subtext">This is me, user testing my game with my target audience which is mainly primary school students from 6 to 10 years-old. My game was built to teach kids to code and understand how to use a browsers developer tools to modify elements CSS and HTML on a webpage.</p>
+                    </div>
+                    <!-- /User testing with ustwo slides -->
+
+                    <!-- Deloitte IoT Hackathon -->
+                    <div>
+                        <img class="carousel-img" src="./assets/DIPD/everyone.jpg">
+                        <h3> Deloitte IoT Project Day (1)</h3>
+                        <p class="carousel-subtext">We had a 3 day IoT project/Hackathon run by Deloitte where our task was to develop an IoT solution for a school that would benefit and aid the teachers and students. This solution would then be demonstrated to industry professionals.</p>
+                    </div>
+                    <div>
+                        <img class="carousel-img" src="./assets/DIPD/team.jpg">
+                        <h3> Deloitte IoT Project Day (2)</h3>
+                        <p class="carousel-subtext">This was my team for the 3 day IoT challenge where I was the solutions developer and team lead. What we developed was a noise synthesiser which measures noise level in a room and notifies people to be quiet vocally or alerts a teacher if students are being too loud.</p>
+                    </div>
+                    <!-- /Deloitte IoT Hackathon -->
+
+                </div>
+            </div>
+        </div>
+        <!-- /Experience carousel -->
+
+
+        <!-- PROJECT CONTAINER -->
+        <div class="container-fluid feature-container" id="projects">
+            <div class="row">
+
+                <!-- Project header -->
+                <div class="col-md-12">
+                    <h2 class="header">Featured Projects</h2>
+                    <p class="sub-header">This section will showcase some of my best and latest work I have created with a link to the project and a brief description.</p>
+                </div>
+                <!-- /Introduction header -->
+
+                <!-- All projects features -->
+                <div class="feature-box-container">
+
+                    <div class="container-fluid">
+                    
+                        <!-- Tachyon - programming langauge -->
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/TachyonLogo.png" alt="Compiler project">
+                                <div class="card-block">
+                                    <h4 class="card-title">Tachyon</h4>
+                                    <p class="card-text">A programming langauge / compiler I am working on to challenge myself.</p>
+                                    <p><span class="badge badge-default">Compiler</span> <span class="badge badge-default">Python</span> <span class="badge badge-default">Language</span></p>
+                                    <a href="https://github.com/RyanMaugin/Tachyon" class="btn btn-primary">In Development</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Tachyon - programming langauge -->
+
+                        <!-- Compiler Construction Documentation -->
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="./assets/doc_icon.png" alt="Stackoerflow comipiler construction documentation">
+                                <div class="card-block">
+                                    <h4 class="card-title">Compiler Documentation</h4>
+                                    <p class="card-text">Created Stackoverflow compiler-construction documentation.</p>
+                                    <p><span class="badge badge-default">Compiler</span> <span class="badge badge-default">Documentation</span></p>
+                                    <a href="https://stackoverflow.com/documentation/compiler-construction/topics" class="btn btn-primary">View documentation</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Compiler Construction Documentation -->
+
+                        <!-- Weatherly Project -->
+                        <div class="col-sm-4">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="assets/Weatherly.png" style="height: 200px;" alt="Weatherly app project">
+                                <div class="card-block">
+                                    <h4 class="card-title">Weatherly</h4>
+                                    <p class="card-text">This is an IOS weather app coded in swift which gives current locations weather and forecast.</p>
+                                    <p><span class="badge badge-default">Swift3</span> <span class="badge badge-default">Xcode</span> <span class="badge badge-default">App</span></p>
+                                    <a href="https://github.com/RyanMaugin/Weatherly" class="btn btn-primary">View Github Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Weatherly Project -->
+                    </div>
+                    
+                    
+                    <!-- AdaWay Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="assets/adaway.png" style="height: 200px;" alt="AdaWay Project">
+                            <div class="card-block">
+                                <h4 class="card-title">AdaWay</h4>
+                                <p class="card-text">Used Google Maps API to display directions from a user's position to my college.</p>
+                                <p><span class="badge badge-default">JS</span> <span class="badge badge-default">Google Maps API</span></p>
+                                <a href="https://github.com/RyanMaugin/ADAWAY" class="btn btn-primary">View Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /AdaWay Project -->
+
+                    <!-- Smash Editor Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="assets/smashEditorLogo.png" alt="Smash Editor Project">
+                            <div class="card-block">
+                                <h4 class="card-title">Smash Editor</h4>
+                                <p class="card-text">A text editor remade with extra features and functions like canvas drawing in JavaFX.</p>
+                                <p><span class="badge badge-default">Java</span> <span class="badge badge-default">JavaFX</span></p>
+                                <a href="https://github.com/RyanMaugin/SmashEditor" class="btn btn-primary">View Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Smash Editor Project -->
+
+                    <!-- Socket-io-chat Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/socketio_icon.png" alt="Group chat using socket io project">
+                            <div class="card-block">
+                                <h4 class="card-title">Socket-io-chat</h4>
+                                <p class="card-text">A basic open group chat application made using socket.io & NodeJS.</p>
+                                <p><span class="badge badge-default">Socket.io</span> <span class="badge badge-default">NodeJS</span></p>
+                                <a href="https://github.com/RyanMaugin/socket-io-chat" class="btn btn-primary">View Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Socket-io-chat Project -->
+
+                    <!-- Portfolio Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="assets/codeWindow.jpg" alt="Portfolio source code project">
+                            <div class="card-block">
+                                <h4 class="card-title">Portfolio Source</h4>
+                                <p class="card-text">View the source code and github repository of this portfolio.</p>
+                                <p><span class="badge badge-default">Web Technologies</span></p>
+                                <a href="https://github.com/RyanMaugin/ryanmaugin.github.io" class="btn btn-primary">View Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Portfolio Project -->
+
+                    <!-- IT Systems Security & Encryption Paper -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/itsyssec_icon.png" alt="IT Systems security and encryption paper">
+                            <div class="card-block">
+                                <h4 class="card-title">IT Systems Security Paper</h4>
+                                <p class="card-text">A paper on cyber security</p>
+                                <p><span class="badge badge-default">Encryption</span> <span class="badge badge-default">Security</span> <span class="badge badge-default">Hacks</span></p>
+                                <a href="https://docs.google.com/a/adacollege.org.uk/document/d/13Iw9SNK4o_ZLeSPwVVg-xW8UMwXZBkMyI1K7k_a7Eb8/edit?usp=sharing" class="btn btn-primary" style="float: left;">Intro</a>
+                                <a href="https://docs.google.com/document/d/1jLCa6GUxoE_8tD3kPSRWFsqYwImq-lutM-8nBgrp3ug/edit?usp=sharing" class="btn btn-primary" style="float: right;">Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /IT Systems Security & Encryption Paper -->
+
+                    <!-- Stopwatch App Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/stopwatch_icon.png" alt="Stopwatch app">
+                            <div class="card-block">
+                                <h4 class="card-title">Stopwatch App</h4>
+                                <p class="card-text">My first IOS app which is a stopwatch written in swift.</p>
+                                <p><span class="badge badge-default">Swift2</span> <span class="badge badge-default">Xcode</span> <span class="badge badge-default">App</span></p>
+                                <a href="https://github.com/RyanMaugin/IOS-Stopwatch" class="btn btn-primary">View Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Stopwatch App Project -->
+
+                    <!-- Stopwatch App Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/hci_icon.png" alt="Human Computer Interaction Paper">
+                            <div class="card-block">
+                                <h4 class="card-title">Human Computer Interaction Paper</h4>
+                                <p class="card-text">A paper on HCI and it's evolution.</p>
+                                <p><span class="badge badge-default">HCI</span> <span class="badge badge-default">Paper</span></p>
+                                <a href="https://docs.google.com/document/d/1TDaw_7v2SFoN496CoHiYDPf55eIuRtKuUDd9xbjZLb8/edit?usp=sharing" class="btn btn-primary">View Paper</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Stopwatch App Project -->
+
+                    <!-- Stopwatch App Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/comingSoonWindow.jpg" alt="Coming soon">
+                            <div class="card-block">
+                                <h4 class="card-title">Coming soon!</h4>
+                                <p class="card-text">Be patient! A new project is in construction.</p>
+                                <p><span class="badge badge-default">Comming soon!</span>  <span class="badge badge-default">Suprise</span></p>
+                                <a href="https://github.com/RyanMaugin/IOS-Stopwatch" class="btn btn-primary">View Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Stopwatch App Project -->
+
+                    <!-- Stopwatch App Project -->
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="./assets/comingSoonWindow.jpg" alt="Comming soon">
+                            <div class="card-block">
+                                <h4 class="card-title">Coming soon!</h4>
+                                <p class="card-text">Be patient! A new project is in construction.</p>
+                                <p><span class="badge badge-default">Comming soon!</span>  <span class="badge badge-default">Suprise</span></p>
+                                <a href="https://github.com/RyanMaugin/IOS-Stopwatch" class="btn btn-primary">View Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Stopwatch App Project -->
+
+                </div>
+                <!-- /All projects features -->
+
+            </div>
+        </div>
+        <!-- /INTRODUCTION CONTAINER -->
+
+
+        <!-- EXTRA STUFF CONTAINER -->
+        <div class="container-fluid extra-container" id="extra">
+            <div class="row">
+
+                <!-- Extra header -->
+                <div class="col-md-12">
+                    <h2 class="header">Extra Section</h2>
+                    <p class="sub-header">This section highlights some other thing's I have done or experienced which show my passion in programming & technology.</p>
+                </div>
+                <!-- /Extra header -->
+
+                <div class="center-container">
+
+                    <!-- Instagram page -->
+                    <div class="col-sm-6">
+                        <div class="card text-center">
+                            <div class="card-block">
+                                <h4 class="card-title"><b>@CoderLegion</b></h4>
+                                <p class="card-text">A coding instagram page I created in my spare time to share my passion for coding.</p>
+                                <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BUAfnEWjiG9/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Programmer Life | Coding (@coderlegion)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-12T21:40:21+00:00">May 12, 2017 at 2:40pm PDT</time></p></div></blockquote>
+                                <script async defer src="https://platform.instagram.com/en_US/embeds.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Instagram page -->
+
+                    <!-- Udemy section -->
+                    <div class="col-sm-6">
+
+                        <h4 class="udemy-header"><b><a class="udemy-link" href="https://www.udemy.com/user/ryan-maugin/">Udemy</a> Courses Completed</b></h4>
+                        <p class="udemy-sub-header">Here are some programming course I have completed in my free time to learn coding.</p>
+
+                        <div class="card">
+                           <ul class="list-group list-group-flush">
+                                <li class="list-group-item">The Complete Web Developer Course By Rob Percival <span class="badge badge-pill badge-success">Completed</span></li>
+                                <li class="list-group-item">The Complete NodeJS Developer Course By Andrew Mead <span class="badge badge-pill badge-success">Completed</span></li>
+                                <li class="list-group-item">Rapid Prototyping with Ionic: Build a Data-Driven Mobile App By Hunter Leaman <span class="badge badge-pill badge-success">Completed</span></li>
+                                <li class="list-group-item">Compiler Design Course by Santosh Pande on <a href="https://www.udacity.com/course/compilers-theory-and-practice--ud168">Udacity</a><span class="badge badge-pill badge-warning">Current</span></li>
+                               <li class="list-group-item">Artificial Intelligence Course <span class="badge badge-pill badge-danger">Next Course</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /Udemy section -->
+
+                    <!-- Data Terminals -->
+                    <div class="col-sm-6">
+                        <h4 class="udemy-header" style="margin-top: 25px;"><b>Data Terminals</b></h4>
+                        <p class="udemy-sub-header">Get to know more about me through data terminals that shares things about me!</p>
+                        <img src="assets/statsWindow.jpg" style="width: 100%;">
+                    </div>
+                    <!-- /Data Terminals -->
+
+                </div>
+
+            </div>
+        </div>
+        <!-- /EXTRA STUFF CONTAINER -->
+
+        <!-- CONTACT CONTAINER -->
+        <div class="container-fluid contact-container" id="contact">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="header">Any Questions?</h2>
+                    <p class="sub-header">Don't hesitate to contact me if you have any question I accept any feedback and general question</p>
+                    <p id="email-btn" class="email">ryan.maugin@adacollege.org.uk</p>
+                </div>
+            </div>
+        </div>
+        <!-- /CONTACT CONTAINER -->
+
+        <!-- FOOTER CONTAINER -->
+        <div class="container-fluid footer-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="footer-copyright">&copy; 2017 Ryan Maugin.</p>
+                    <p class="footer-right">
+                        <a class="social-link" href="./views/extra.html">Blog</a>  &#8226;
+                        <a class="social-link" href="https://www.quora.com/profile/Ryan-Maugin">Quora</a> &#8226;
+                        <a class="social-link" href="https://github.com/RyanMaugin">Github</a> &#8226;
+                        <a class="social-link" href="http://stackoverflow.com/users/5476495/ryanm">StackOverflow</a> &#8226;
+                        <a class="social-link" href="https://www.linkedin.com/in/ryan-maugin-665021126/">LinkedIn</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- /FOOTER CONTAINER -->
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+        <!-- SlickJS (Carousel) -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <!-- Custom -->
+        <script src="js/skills.js"></script>
+        <script src="js/carousel.js"></script>
+        <script src="js/scrollspy.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Google Analytics -->
+        <script src="js/googleAnalytics.js"></script>
+    </body>
+</html>
+
+<!-- TODO
+    1. Add Academia info
+    2. Add design work such as prototypes of apps and websites
+-->
